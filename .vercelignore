@@ -1,0 +1,13 @@
+.venv
+__pycache__
+*.pyc
+*.log
+data/state.json
+data/events.jsonl
+tests
+*.bat
+*.vbs
+launcher.pyw
+dashboard.html
+BUILD-VERIFICATION.txt
+dev_server.py

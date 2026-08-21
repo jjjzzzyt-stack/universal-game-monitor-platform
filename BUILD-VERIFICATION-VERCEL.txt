@@ -1,0 +1,59 @@
+UNIVERSAL GAMING RADAR — VERCEL BUILD VERIFICATION
+==================================================
+
+Version: 2026.08.21-universal-gaming-radar-v2-platform-vercel
+Mode: request-driven Vercel Functions + browser localStorage continuity
+Build date: 2026-08-21 (Asia/Calcutta)
+
+Verified architecture
+---------------------
+[pass] 15 safe built-in providers
+[pass] arbitrary custom endpoint provider excluded in cloud mode
+[pass] visitor POST continuity and due-provider scheduling
+[pass] per-provider intervals survive cold functions through browser timestamps
+[pass] first-run item baselines and service incident exception
+[pass] service transition/new-item events returned to browser
+[pass] browser-local settings, favorites, rules, watchlists and history
+[pass] browser Notifications API test and category gating
+[pass] local JSON/ICS/CSV exports
+[pass] PWA manifest and service worker
+[pass] Vercel function duration/security configuration
+
+Live first-request test
+-----------------------
+Providers healthy: 15 / 15
+Remaining provider errors: 0
+Service cards: 7
+Epic promotions: 4
+GamerPower items: 100
+Combined deals: 80
+Tracked Steam news: 30
+Free-to-play catalog: 415
+Verified live gameplay sample: 2
+Full response: approximately 730,189 bytes
+Browser continuity: approximately 348,512 bytes
+Cold build_state duration in test environment: approximately 0.79 seconds
+Immediate no-due continuity build: approximately 0.004 seconds
+
+Automated tests
+---------------
+[pass] Python compilation for provider and Vercel functions
+[pass] index inline JavaScript syntax
+[pass] vercel.json and manifest JSON validation
+[pass] 23 source/cloud unit tests
+[pass] continuity bounds and settings sanitation
+[pass] custom monitor exclusion
+[pass] service transition notification event
+[pass] first-content silent baseline
+[pass] price-rule matching
+[pass] no-due refresh performs zero provider calls
+[pass] frontend POST/localStorage/30-second cadence
+[pass] local Vercel route harness: root, health, POST state, manifest and service worker
+[pass] first route response: 15/15 providers, 415 catalog, 80 deals, 30 news, 2 live sample
+[pass] second no-due route response reused continuity with zero new events
+
+The Vercel CLI production build command was not authenticated in the build sandbox; it stopped at account-token validation before deployment. Source/config validation and the local route harness passed. A real Vercel account import remains the final deployment-only step.
+
+Deployment-only confirmation
+----------------------------
+A real Vercel deployment must still confirm the assigned public URL, Function logs, browser notification permission and any provider-specific datacenter blocking. No claim of 24/7 background execution is made.

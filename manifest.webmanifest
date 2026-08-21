@@ -1,0 +1,13 @@
+{
+  "name": "Universal Gaming Radar",
+  "short_name": "Gaming Radar",
+  "description": "Local gaming status, deals, giveaways, news and live-stream command center.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#070910",
+  "theme_color": "#070910",
+  "icons": [
+    {"src": "/assets/radar-icon.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

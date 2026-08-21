@@ -1,0 +1,7 @@
+.vercel/
+.venv/
+__pycache__/
+*.pyc
+*.log
+data/state.json
+data/events.jsonl

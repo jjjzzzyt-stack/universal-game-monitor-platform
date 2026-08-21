@@ -1,0 +1,2 @@
+# Vercel build uses only the Python standard library.
+# winotify is intentionally Windows-only and is not installed in cloud functions.
